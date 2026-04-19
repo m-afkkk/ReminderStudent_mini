@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="palette_ice">#FFEFF3FF</color>
+    <color name="palette_light_blue">#FFC6DBEF</color>
+    <color name="palette_sky">#FF9ECAE1</color>
+    <color name="palette_medium">#FF6BAED6</color>
+    <color name="palette_strong">#FF3182BD</color>
+    <color name="palette_navy">#FF08519C</color>
+
+    <color name="card_surface">#FFFFFFFF</color>
+    <color name="text_primary">@color/palette_navy</color>
+    <color name="text_secondary">#CC08519C</color>
+    <color name="text_muted">#9908519C</color>
+
+    <color name="badge_soon_bg">#809ECAE1</color>
+    <color name="badge_scheduled_bg">#FFC6DBEF</color>
+    <color name="badge_later_bg">#FFEFF3FF</color>
+    <color name="icon_box_bg">#CC9ECAE1</color>
+
+    <color name="progress_track">#FFC6DBEF</color>
+    <color name="nav_bar_bg">#FFC6DBEF</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

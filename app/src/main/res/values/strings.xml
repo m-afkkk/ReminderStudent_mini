@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">ReminderStudent2</string>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_schedule">الجدول</string>
+    <string name="nav_upload">استيراد</string>
+    <string name="nav_notifications">تذكيرات</string>
+
+    <string name="greeting_sample">أهلاً، عبدالله</string>
+    <string name="wednesday">الأربعاء</string>
+    <string name="subjects_today">مواد اليوم</string>
+    <string name="upcoming_reminders">تذكيرات قادمة</string>
+    <string name="attendance">الحضور</string>
+    <string name="soon_section">قريباً</string>
+    <string name="after_section">بعد ذلك</string>
+    <string name="course_math">رياضيات 101</string>
+    <string name="in_minutes">بعد 15 دقيقة</string>
+    <string name="math_meta">الساعة 10:00 ص — قاعة B3</string>
+    <string name="course_java">برمجة - Java</string>
+    <string name="noon_time">12:00 م</string>
+    <string name="java_meta">الساعة 12:00 م — مختبر 5</string>
+    <string name="course_db">قواعد البيانات</string>
+    <string name="afternoon_time">2:00 م</string>
+    <string name="db_meta">الساعة 2:00 م — قاعة A1</string>
+
+    <string name="schedule_title">جدولي</string>
+    <string name="import_title">استيراد الجدول</string>
+    <string name="upload_pdf">ارفع ملف PDF</string>
+    <string name="upload_hint">سيتم استخراج الجدول تلقائياً</string>
+    <string name="or_manual">أو أضف يدوياً</string>
+    <string name="hint_subject">اسم المادة…</string>
+    <string name="hint_start">وقت البداية</string>
+    <string name="hint_end">وقت النهاية</string>
+    <string name="hint_room">رقم القاعة (اختياري)</string>
+    <string name="save_subject">حفظ المادة</string>
+    <string name="add_subject_manual">+ أضف مادة يدوياً</string>
+
+    <string name="notifications_title">التذكيرات</string>
+    <string name="today_section">اليوم</string>
+
+    <string name="day_sun">الأحد</string>
+    <string name="day_mon">الاثنين</string>
+    <string name="day_thu">الخميس</string>
+
+    <string name="course_java_short">برمجة Java</string>
+    <string name="notif_math_body">المحاضرة بعد 15 دقيقة — قاعة B3</string>
+    <string name="notif_java_body">المحاضرة بعد 15 دقيقة — مختبر 5</string>
+    <string name="notif_db_body">تم التذكير — قاعة A1</string>
+    <string name="time_945">9:45 ص</string>
+    <string name="time_1145">11:45 ص</string>
+    <string name="time_145">1:45 م</string>
+
+    <string name="auth_login_title">تسجيل الدخول</string>
+    <string name="auth_login_subtitle">أدخل بياناتك للمتابعة إلى جدولك الدراسي</string>
+    <string name="auth_hint_email">البريد الإلكتروني أو رقم الجوال</string>
+    <string name="auth_hint_password">كلمة المرور</string>
+    <string name="auth_forgot_password">نسيت كلمة المرور؟</string>
+    <string name="auth_btn_login">تسجيل الدخول</string>
+    <string name="auth_no_account">ليس لديك حساب؟</string>
+    <string name="auth_go_register">إنشاء حساب</string>
+
+    <string name="auth_register_title">إنشاء حساب</string>
+    <string name="auth_register_subtitle">أنشئ حساباً جديداً لتنظيم محاضراتك وتذكيراتك</string>
+    <string name="auth_hint_full_name">الاسم الكامل</string>
+    <string name="auth_hint_password_confirm">تأكيد كلمة المرور</string>
+    <string name="auth_btn_register">إنشاء الحساب</string>
+    <string name="auth_has_account">لديك حساب بالفعل؟</string>
+    <string name="auth_go_login">تسجيل الدخول</string>
+</resources>

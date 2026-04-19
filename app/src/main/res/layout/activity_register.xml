@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:fillViewport="true"
+    android:layoutDirection="rtl">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:paddingTop="40dp"
+        android:paddingBottom="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:letterSpacing="0.02"
+            android:text="StudentApp"
+            android:textColor="@color/palette_strong"
+            android:textSize="22sp"
+            android:fontFamily="@font/cairo_bold"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="end"
+            android:text="@string/auth_register_title"
+            android:textAppearance="@style/Text.Reminder.Headline" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="end"
+            android:text="@string/auth_register_subtitle"
+            android:textAppearance="@style/Text.Reminder.Small" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_auth_card"
+            android:elevation="2dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/et_register_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_edittext"
+                android:fontFamily="@font/cairo_bold"
+                android:gravity="end"
+                android:hint="@string/auth_hint_full_name"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColor="@color/palette_navy"
+                android:textColorHint="@color/text_muted"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_register_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_edittext"
+                android:fontFamily="@font/cairo_bold"
+                android:gravity="end"
+                android:hint="@string/auth_hint_email"
+                android:inputType="textEmailAddress"
+                android:padding="12dp"
+                android:textColor="@color/palette_navy"
+                android:textColorHint="@color/text_muted"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_register_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_edittext"
+                android:fontFamily="@font/cairo_bold"
+                android:gravity="end"
+                android:hint="@string/auth_hint_password"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:textColor="@color/palette_navy"
+                android:textColorHint="@color/text_muted"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/confirmPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_edittext"
+                android:fontFamily="@font/cairo_bold"
+                android:gravity="end"
+                android:hint="@string/auth_hint_password_confirm"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:textColor="@color/palette_navy"
+                android:textColorHint="@color/text_muted"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingVertical="12dp"
+                android:text="@string/auth_btn_register"
+                android:textAppearance="@style/Text.Reminder.Body"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/palette_strong"
+                app:cornerRadius="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/auth_has_account"
+                android:textAppearance="@style/Text.Reminder.Small" />
+
+            <TextView
+                android:id="@+id/tv_go_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="6dp"
+                android:paddingVertical="4dp"
+                android:text="@string/auth_go_login"
+                android:textAppearance="@style/Text.Reminder.Link" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

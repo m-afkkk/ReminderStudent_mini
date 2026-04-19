@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ReminderStudent2" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/palette_strong</item>
+        <item name="android:navigationBarColor">@color/palette_light_blue</item>
+        <item name="android:windowBackground">@color/palette_ice</item>
+        <item name="colorPrimary">@color/palette_strong</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/card_surface</item>
+    </style>
+</resources>

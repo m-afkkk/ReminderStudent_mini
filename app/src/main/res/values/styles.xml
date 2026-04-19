@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Text.Reminder.Greeting" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/cairo_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/palette_navy</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Reminder.Title" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/cairo_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/palette_navy</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Reminder.Headline" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/cairo_bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/palette_navy</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Reminder.Link" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/cairo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/palette_strong</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Reminder.Body" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/cairo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/palette_navy</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Reminder.Small" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/cairo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Reminder.Caption" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/cairo_bold</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/text_muted</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Reminder.Stat" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/cairo_bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/palette_strong</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Reminder.StatLabel" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/cairo_bold</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
